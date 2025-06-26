@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+:root {
+  --bg-main: #fff;
+  --bg-secondary: #2c3037;
+
+  --color-primary: #fff;
+  --color-secondary: #1cd719;
+  --color-terciary: #2c3037;
+
+  --text-primary: #2c3037;
+  --text-accent: #fff;
+
+  --accent: #159335;
+}
+
+* {
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  background-color: var(--bg-main);
+}

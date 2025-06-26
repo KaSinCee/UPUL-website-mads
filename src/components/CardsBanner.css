@@ -1,0 +1,64 @@
+.cards-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    width: 100%;
+    position: absolute;
+    bottom: clamp(-120px, -16vw, -90px);
+    z-index: 2;
+    overflow: hidden;
+}
+
+.cards-box .cards-img {
+    background: #1cd71936;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 160px;
+    height: 32vh;
+    max-height: 190px;
+}
+
+.cards-box .cards-img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #00000069;
+}
+
+.cards-box .cards-info {
+    background: var(--color-primary);
+    border-radius: 5px;
+    color: var(--text-primary);
+    font-family: "PT Sans", sans-serif;
+    padding: 50px 30px;
+    border-bottom: 5px solid var(--color-secondary);
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #00000069;
+    text-align: center;
+    min-width: 480px;
+    width: 30vw;
+}
+
+.cards-box h3{
+    font-weight: 900;
+    font-size: clamp(25px, 2.4vw, 30px);
+}
+
+.cards-box p {
+    text-align: center;
+    font-size: clamp(15px, 2vw, 18px);
+}
+
+@media (max-width: 1145px) {
+    .cards-box {
+        bottom: -150px;
+        margin: 10px;
+    }
+}
