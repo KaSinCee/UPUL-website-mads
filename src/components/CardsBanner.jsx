@@ -4,7 +4,6 @@ import cardImg2 from '../assets/unmsm-card-bg-2.png'
 import cardImg3 from '../assets/unmsm-card-bg-3.jpg'
 import cardImg4 from '../assets/unmsm-card-bg-4.jpg'
 import cardImg5 from '../assets/unmsm-card-bg-5.jpg'
-import cardImg6 from '../assets/unmsm-card-bg-6.png'
 
 function CardsBanner() {
     return (
@@ -15,7 +14,6 @@ function CardsBanner() {
                 <div className='cards-img 3'><img src={cardImg3}></img></div>
                 <div className='cards-img 4'><img src={cardImg4}></img></div>
                 <div className='cards-img 5'><img src={cardImg5}></img></div>
-                <div className='cards-img 6'><img src={cardImg6}></img></div>
             </div>
             <div className='cards-info'>
                 <h3>La limpieza es clave para nuestro futuro</h3>
