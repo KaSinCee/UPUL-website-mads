@@ -19,7 +19,7 @@ function App() {
             <img src={unmsmBg} alt='unmsm-bg' />
           </picture>
           <div className='banner-title-box'>
-            <h2>Organización Universitaria</h2>
+            <h2>Organización Universitaria San Marquina</h2>
             <h1><span>U</span>nidos <span>p</span>or una <span className='nowrap'><span>u</span>niversidad <span>l</span>impia</span></h1>
           </div>
           <CardsBanner/>
