@@ -6,7 +6,7 @@ import unmsmBg from './assets/unmsm-bg.png'
 
 function App() {
   return (
-    <>
+    <div className='container'>
       <header>
         <nav>
           <NavBar />
@@ -25,7 +25,10 @@ function App() {
           <CardsBanner/>
         </div>
       </main>
-    </>
+      <footer>
+        
+      </footer>
+    </div>
   )
 }
 

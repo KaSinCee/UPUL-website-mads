@@ -9,6 +9,11 @@ main {
   padding: 0 0;
 }
 
+footer {
+  height: 200px;
+  background: var(--bg-secondary);
+}
+
 .banner-box {
   position: relative;
   width: 100%;

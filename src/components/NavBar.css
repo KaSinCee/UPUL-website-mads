@@ -32,6 +32,11 @@
     background: var(--accent);
     color: var(--text-accent);
     padding: 12px 15px;
+    transition: background 0.2s ease-in-out;
+}
+
+.navbar-box .navbar-nav li:nth-child(4) a:hover {
+    background: var(--bg-secondary);
 }
 
 .navbar-box .navbar-nav li:nth-child(5) a{

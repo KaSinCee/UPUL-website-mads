@@ -6,10 +6,10 @@
     position: absolute;
     bottom: clamp(-120px, -16vw, -90px);
     z-index: 2;
-
     padding: 20px;
     box-sizing: border-box;
-    gap: 25px;
+    gap: 50px;
+    max-width: 1900px;
 }
 
 .cards-box .cards-img-box {
@@ -27,6 +27,7 @@
     justify-content: center;
     min-width: 100px;
     width: 10.5vw;
+    max-width: 210px;
     height: 25vh;
     max-height: 200px;
 }
