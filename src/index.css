@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.cdnfonts.com/css/chronicle-display');
 
 :root {
   --bg-main: #fff;
@@ -23,4 +24,13 @@
 
 body {
   background-color: var(--bg-main);
+}
+
+main {
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 0 1fr 0;
 }

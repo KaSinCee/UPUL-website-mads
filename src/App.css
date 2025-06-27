@@ -2,7 +2,7 @@ nav {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 3;
 }
 
 main {
@@ -72,4 +72,26 @@ footer {
   display: block;
   object-fit: cover;
   aspect-ratio: 16/9;
+}
+
+.homeSection {
+  padding: 15vh 10vw;
+}
+
+.homeSection h1 {
+  font-size: 40px;
+  font-family: 'Chronicle Display', sans-serif;
+}
+
+.first-block {
+  width: 28vw;
+}
+
+.first-block h1 {
+  padding-bottom: 14px;
+}
+
+.first-block p {
+  font-size: clamp(16px, 5vw, 18px);
+  font-family: 'Public Sans', sans-serif;
 }
