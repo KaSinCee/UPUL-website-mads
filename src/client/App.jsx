@@ -2,7 +2,7 @@ import './App.css'
 import NavBar from './components/NavBar.jsx'
 import CardsBanner from './components/CardsBanner.jsx'
 
-import unmsmBg from './assets/unmsm-bg.png'
+import unmsmBg from '../assets/unmsm-bg.png'
 
 function App() {
   return (
@@ -35,6 +35,12 @@ function App() {
                 Así que si has venido hasta aquí, por ahora no hay 
                 nada que mostrar muy aparte de letritas. Daniel no va a ponderar.
               </p>
+            </div>
+            <div className='second-block'>
+              <div>
+                <h3>¿Qué hacemos?</h3>
+                <p>No hacemos nada, al menos por ahora.</p>
+              </div>
             </div>
           </div>
         </section>

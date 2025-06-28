@@ -1,9 +1,9 @@
 import './CardsBanner.css'
-import cardImg1 from '../assets/unmsm-card-bg-1.jpg'
-import cardImg2 from '../assets/unmsm-card-bg-2.png'
-import cardImg3 from '../assets/unmsm-card-bg-3.jpg'
-import cardImg4 from '../assets/unmsm-card-bg-4.jpg'
-import cardImg5 from '../assets/unmsm-card-bg-5.jpg'
+import cardImg1 from '../../assets/unmsm-card-bg-1.jpg'
+import cardImg2 from '../../assets/unmsm-card-bg-2.png'
+import cardImg3 from '../../assets/unmsm-card-bg-3.jpg'
+import cardImg4 from '../../assets/unmsm-card-bg-4.jpg'
+import cardImg5 from '../../assets/unmsm-card-bg-5.jpg'
 
 function CardsBanner() {
     return (
