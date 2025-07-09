@@ -99,6 +99,11 @@ function App() {
               </p>
             </div>
           </div>
+          <div className='third-section'>         
+            <div className='project-info'>
+              
+            </div>
+          </div>
         </section>
       </main>
       <footer>
