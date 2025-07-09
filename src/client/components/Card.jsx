@@ -1,8 +1,10 @@
-function Card(){
+import './Card.css'
+
+function Card(props){
     return (
         <>
-            <div>
-
+            <div className='card'>
+                <img src={props.cardImg} alt="Card" />
             </div>
         </>
     )

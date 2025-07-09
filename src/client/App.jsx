@@ -3,8 +3,8 @@ import NavBar from './components/NavBar.jsx'
 import CardsBanner from './components/CardsBanner.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
-
-
+import Card from './components/Card.jsx'
+import worldTree from './assets/imgCardsSection/worldTree.webp'
 import unmsmBg from './assets/unmsm-bg.png'
 
 function App() {
@@ -71,6 +71,9 @@ function App() {
               </div>
 
             </div>
+          </div>
+          <div className='second-section'>
+            <Card cardImg={worldTree}/>
           </div>
         </section>
       </main>

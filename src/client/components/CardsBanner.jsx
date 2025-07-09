@@ -42,10 +42,11 @@ function CardsBanner() {
             </div>
             <div className='cards-info'>
                 <h3>La limpieza es clave para nuestro futuro</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Facilis nobis qui ullam et, hic ex exercitationem minus
-                    nihil repellendus a natus incidunt, eveniet delectus error
-                    optio sit consectetur</p>
+                <p>Cada acción de limpieza, desde el manejo adecuado 
+                    de residuos hasta el uso de prácticas sostenibles, 
+                    contribuye a preservar nuestros ecosistemas, reducir 
+                    la contaminación y asegurar un entorno habitable. Un 
+                    futuro limpio es un futuro sostenible y lleno de vida.</p>
             </div>
         </div>
     )
