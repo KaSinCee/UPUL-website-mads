@@ -7,6 +7,9 @@ nav {
 
 main {
   padding: 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 footer {
@@ -49,7 +52,7 @@ footer {
 }
 
 .banner-box .banner-title-box span {
-  color: var(--color-secondary);
+  color: var(--accent);
 }
 
 .banner-box .bg-effect {
@@ -75,7 +78,12 @@ footer {
 }
 
 .homeSection {
-  padding: 15vh 10vw;
+  padding: 18vh 4vw;
+  box-sizing: border-box;
+  height: 200vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .homeSection h1 {
@@ -85,18 +93,59 @@ footer {
 
 .homeSection .first-section {
   display: flex;
-  gap: 1vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3vw;
+  width: 85%;
 }
 
-.first-block {
-  width: 28vw;
+.first-section .first-block {
+  flex: 1;
+  min-width: 450px;
 }
 
-.first-block h1 {
+.first-section .first-block h1 {
   padding-bottom: 14px;
 }
 
-.first-block p {
-  font-size: clamp(16px, 5vw, 18px);
+.first-section .first-block p {
+  font-size: clamp(16px, 5vw, 17px);
+  font-family: 'Whitney A', sans-serif;
+  padding-right: 100px;
+}
+
+.first-section .second-block {
   font-family: 'Public Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  flex: 1 1;
+  position: relative;
+}
+
+.first-section .second-block div {
+  border-bottom: 1px var(--bg-secondary) solid;
+  padding-bottom: 20px;
+}
+
+.first-section .second-block h3 {
+  font-size: 24px;
+  font-weight: 900;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 3px 0;
+  color: var(--color-secondary);
+}
+
+.first-section .second-block p {
+  font-family: 'Chronicle Display', sans-serif;
+  font-weight: 200;
+  font-size: clamp(16px, 5vw, 18px);
+}
+
+@media (max-width: 768px) {
+  .first-section .first-block h1 {
+    text-align: center;
+  }
 }

@@ -15,7 +15,6 @@
 .cards-box .cards-img-box {
     display: flex;
     gap: 25px;
-    flex: 2;
     align-items: center;
     justify-content: space-between;
 }
@@ -73,5 +72,15 @@
 @media (max-width: 1450px) {
     .cards-box {
         bottom: -150px;
+    }
+}
+
+@media (max-width: 900px) {
+    .cards-box {
+        bottom: -130px;
+    }
+
+    .cards-box .cards-img-box {
+        display: none;
     }
 }

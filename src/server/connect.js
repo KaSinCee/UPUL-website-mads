@@ -20,7 +20,7 @@ app.get('/report', (req, res) => {
 
 app.post('/report', (req, res) => {
   const report = new Report({
-    author: "Usuario de prueba",
+    author: "Jeison Guizado Talaverano",
     ubication: "Lima, Peru",
     updatedAt: new Date()
   })

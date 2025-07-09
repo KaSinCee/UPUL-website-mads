@@ -8,13 +8,20 @@
   --bg-secondary: #2c3037;
 
   --color-primary: #fff;
-  --color-secondary: #1cd719;
+  --color-secondary: #00703c;
   --color-terciary: #2c3037;
 
   --text-primary: #2c3037;
   --text-accent: #fff;
 
-  --accent: #159335;
+  --accent: #20b935;
+}
+
+@font-face {
+  font-family: "Whitney A";
+  src: url("../client/fonts/whitneybook.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
 }
 
 * {
