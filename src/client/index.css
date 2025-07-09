@@ -36,8 +36,3 @@ body {
 main {
   min-height: 100vh;
 }
-
-.container {
-  display: grid;
-  grid-template-rows: 0 1fr 0;
-}

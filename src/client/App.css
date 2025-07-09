@@ -12,11 +12,6 @@ main {
   align-items: center;
 }
 
-footer {
-  height: 200px;
-  background: var(--bg-secondary);
-}
-
 .banner-box {
   position: relative;
   width: 100%;
@@ -91,17 +86,19 @@ footer {
   font-family: 'Chronicle Display', sans-serif;
 }
 
+.homeSection div {
+  width: 80%;
+}
+
 .homeSection .first-section {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 3vw;
-  width: 85%;
 }
 
 .first-section .first-block {
-  flex: 1;
-  min-width: 450px;
+  flex: 1 1 450px;
 }
 
 .first-section .first-block h1 {
@@ -119,7 +116,7 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  flex: 1 1;
+  flex: 1 1 450px;
   position: relative;
 }
 
@@ -141,11 +138,78 @@ footer {
 .first-section .second-block p {
   font-family: 'Chronicle Display', sans-serif;
   font-weight: 200;
-  font-size: clamp(16px, 5vw, 18px);
+  font-size: clamp(16px, 5vw, 17px);
 }
 
-@media (max-width: 768px) {
+.homeSection .second-section {
+  position: relative;
+  display: flex;
+  padding: 80px 0 80px 0;
+  flex-wrap: wrap;
+}
+
+.homeSection .second-section p {
+  font-size: clamp(15px, 5vw, 17px);
+  font-family: 'Whitney A', sans-serif;
+}
+
+.homeSection .second-section h1 {
+  padding-bottom: 14px;
+  font-size: clamp(25px, 5vw, 40px);
+}
+
+.homeSection .second-section img {
+  width: 45%;
+  object-fit: contain;
+}
+
+.homeSection .second-section .mision-info {
+  padding: 5vw 5vw 0 5vw;
+  flex: 1 1 200px;
+}
+
+.homeSection .second-section .mision-info-card {
+  background: var(--color-primary);
+  padding: 30px 50px;
+  box-shadow: 0 0 10px #00000069;
+  border-top: 5px solid var(--color-secondary);
+  border-radius: 0 0 5px 5px;
+  position: absolute;
+  right: 60px;
+  bottom: 10px;
+  width: 50%;
+}
+
+.homeSection .second-section .mision-info-card p {
+  font-size: clamp(16px, 5vw, 17px);
+}
+
+.homeSection .second-section .mision-info h3 {
+  font-family: 'Chronicle Display', sans-serif;
+  font-size: clamp(16px, 5vw, 18px);
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1435px) {
+  .homeSection .second-section .mision-info-card {
+    position: static;
+    flex: 0 1 100%;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 1291px) {
   .first-section .first-block h1 {
     text-align: center;
+  }
+
+  .first-section .first-block p {
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .homeSection div {
+    width: 100%;
   }
 }

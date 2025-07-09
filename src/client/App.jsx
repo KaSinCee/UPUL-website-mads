@@ -3,7 +3,6 @@ import NavBar from './components/NavBar.jsx'
 import CardsBanner from './components/CardsBanner.jsx'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleRight } from '@fortawesome/free-solid-svg-icons'
-import Card from './components/Card.jsx'
 import worldTree from './assets/imgCardsSection/worldTree.webp'
 import unmsmBg from './assets/unmsm-bg.png'
 
@@ -73,7 +72,32 @@ function App() {
             </div>
           </div>
           <div className='second-section'>
-            <Card cardImg={worldTree}/>
+            <img src={worldTree} alt='world-tree'/>
+            <div className='mision-info'>
+            <h1>Nuestra misión...</h1>
+              <p>
+              Impulsar el desarrollo de soluciones tecnológicas accesibles e 
+              innovadoras que contribuyan a mejorar la limpieza, el orden y la 
+              gestión ambiental dentro de la Universidad Nacional Mayor de San 
+              Marcos (UNMSM), promoviendo una cultura de sostenibilidad y conciencia 
+              ecológica desde la comunidad estudiantil.
+              <br></br><br></br>
+              Nos enfocamos en el diseño e implementación de prototipos funcionales como sensores de llenado para tachos, 
+              aplicaciones móviles para reportes ambientales, y otros proyectos que integran ciencia 
+              y tecnología con impacto social.
+              <br></br><br></br>
+              Creemos firmemente que, desde el rol estudiantil, es posible generar propuestas 
+              transformadoras que inspiren a otros y construyan una universidad más limpia, organizada 
+              y preparada para los desafíos del presente y del futuro.
+              </p>
+            </div>
+            <div className='mision-info-card'>
+              <h1>Buscamos...</h1>
+              <p>
+              Demostrar el potencial transformador de la tecnología accesible, como Arduino, programación y automatización, 
+              para resolver problemas cotidianos dentro de la universidad.
+              </p>
+            </div>
           </div>
         </section>
       </main>

@@ -50,3 +50,9 @@
         padding: 18px 20px;
     }
 }
+
+@media (max-width: 700px) {
+    .navbar-box .navbar-nav {
+      display: none;
+    }
+} 
