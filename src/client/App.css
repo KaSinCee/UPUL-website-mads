@@ -74,7 +74,7 @@ main {
 }
 
 .homeSection {
-  padding: 18vh 4vw;
+  padding: 25vh 4vw;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -88,7 +88,6 @@ main {
 
 .homeSection > div {
   width: 80%;
-  border-bottom: 1px var(--bg-secondary) solid;
 }
 
 .homeSection .first-section {
@@ -96,6 +95,8 @@ main {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 3vw;
+  border-bottom: 1px var(--bg-secondary) solid;
+  padding-bottom: 20px;
 }
 
 .first-section .first-block {
@@ -196,9 +197,91 @@ main {
 }
 
 .homeSection .third-section {
-  height: 600px;
-  background: var(--bg-secondary);
-  width: 120%;
+  background: #f3f3f3;
+  width: 80%;
+  box-sizing: border-box;
+  padding: 60px 50px;
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  position: relative;
+  margin-top: 100px;
+}
+
+.homeSection .third-section .project-info {
+  flex: 1;
+}
+
+.homeSection .third-section .project-info h1 {
+  padding-bottom: 14px;
+  font-family: 'Chronicle Display', sans-serif;
+  padding-right: 28vw;
+}
+
+.homeSection .third-section .project-info p {
+  font-size: clamp(16px, 5vw, 17px);
+  font-family: 'Whitney A', sans-serif;
+  padding-right: 24vw;
+  color: var(--text-primary);
+}
+
+.homeSection .third-section img {
+  width: 350px;
+  object-fit: contain;
+  position: absolute;
+  right: 5vw;
+  border: 2px #000 solid;
+  width: 300px;
+}
+
+.homeSection .third-section .icon {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.homeSection .third-section .icon svg {
+  height: 50px;
+  width: 50px;
+  fill: #fff;
+  padding: 15px;
+  position: absolute;
+  background: var(--accent);
+}
+
+.triangle-1 {
+  background: var(--accent);
+  clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  bottom: -20px;
+}
+
+.triangle-2 {
+  background: var(--accent);
+  clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 0;
+  left: -60px;
+  transform: rotate(100deg);
+}
+
+.triangle-3 {
+  background: var(--accent);
+  clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  top: -20px;
+  left: -50px;
+  transform: rotate(200deg);
 }
 
 @media (max-width: 1435px) {
