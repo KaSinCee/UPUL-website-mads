@@ -86,7 +86,7 @@ main {
   font-family: 'Chronicle Display', sans-serif;
 }
 
-.homeSection div {
+.homeSection > div {
   width: 80%;
 }
 
@@ -159,7 +159,7 @@ main {
 }
 
 .homeSection .second-section img {
-  width: 45%;
+  width: 40%;
   object-fit: contain;
 }
 
@@ -175,7 +175,7 @@ main {
   border-top: 5px solid var(--color-secondary);
   border-radius: 0 0 5px 5px;
   position: absolute;
-  right: 60px;
+  right: 70px;
   bottom: 10px;
   width: 50%;
 }
@@ -209,7 +209,7 @@ main {
 }
 
 @media (max-width: 1200px) {
-  .homeSection div {
+  .homeSection > div {
     width: 100%;
   }
 }
