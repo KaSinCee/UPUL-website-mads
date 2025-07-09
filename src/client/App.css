@@ -284,6 +284,91 @@ main {
   transform: rotate(200deg);
 }
 
+.triangle-4 {
+  background: var(--accent);
+  clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  top: 30px;
+  left: -65px;
+  transform: rotate(240deg);
+}
+
+.triangle-5 {
+  background: var(--accent);
+  clip-path: polygon(50% 20%, 0% 100%, 100% 100%);
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  bottom: -20px;
+  left: 10px;
+  transform: rotate(210deg);
+}
+
+.homeSection .fourth-section {
+  width: 80%;
+  padding: 80px 0 80px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homeSection .fourth-section h1 {
+  font-family: 'Chronicle Display', sans-serif;
+  padding-bottom: 14px;
+  text-align: center;
+}
+
+.homeSection .fourth-section h4 {
+  font-family: 'Chronicle Display', sans-serif;
+  font-size: clamp(18px, 5vw, 19px);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: var(--color-secondary);
+}
+
+.homeSection .fourth-section p {
+  font-size: clamp(16px, 5vw, 17px);
+  font-family: 'Whitney A', sans-serif;
+  margin-bottom: 20px;
+}
+
+.homeSection .fourth-section h2 {
+  font-size: clamp(22px, 5vw, 24px);
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 500;
+}
+
+.homeSection .fourth-section .form {
+  width: 100%;
+}
+
+.homeSection .fourth-section .form > div {
+  padding: 10px;
+  border-top: var(--accent) 2px solid;
+}
+
+.homeSection .fourth-section .form input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  font-size: clamp(16px, 5vw, 17px);
+  font-family: 'Whitney A', sans-serif;
+}
+
+.homeSection .fourth-section .form .descriptionInput textarea {
+  height: 200px;
+  width: 100%;
+  padding: 15px;
+  resize: none;
+  margin: 10px 0;
+  font-size: clamp(16px, 5vw, 17px);
+  font-family: 'Whitney A', sans-serif;
+  box-sizing: border-box;
+}
+
 @media (max-width: 1435px) {
   .homeSection .second-section .mision-info-card {
     position: static;

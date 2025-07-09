@@ -125,7 +125,34 @@ function App() {
             <div className='triangle-1'></div>
             <div className='triangle-2'></div>
             <div className='triangle-3'></div>
+            <div className='triangle-4'></div>
+            <div className='triangle-5'></div>
           </div>
+          <div className='fourth-section'>
+          <h1>Ayúdanos a limpiar</h1>
+          <h4>La limpieza del campus comienza contigo.</h4>
+          <p>
+          Como estudiantes comprometidos con la mejora de nuestra universidad, queremos invitarte 
+          a ser parte activa del cambio. A través de esta plataforma, puedes reportar lugares que necesitan limpieza, 
+          mantenimiento o atención especial. Tu aporte es fundamental para identificar las zonas críticas del campus y 
+          nos permite actuar de manera más precisa, ya sea proponiendo soluciones tecnológicas, organizando campañas de 
+          limpieza o generando conciencia en nuestra comunidad.
+          </p>
+          <h2>Realiza tu reporte:</h2>
+          <div className='form'>
+            <form>
+              <div className="nameInput">
+                <input placeholder='Ingrese su nombre...'/>
+              </div>
+              <div className="locationInput">
+                <input placeholder='Ingrese la ubicación exacta'/>
+              </div>
+              <div className="descriptionInput">
+                <textarea placeholder='Ingrese la descripción de su reporte'/>
+              </div>
+            </form>
+          </div>
+        </div>
         </section>
       </main>
       <footer>
